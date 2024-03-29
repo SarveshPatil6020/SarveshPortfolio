@@ -1,0 +1,5 @@
+.shrink-image {
+    width: 1px;
+    transition: width 0.3s ease-in-out; /* Add transition effect */
+  }
+

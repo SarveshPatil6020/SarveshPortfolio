@@ -1,0 +1,10 @@
+.glow-on-hover {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .glow-on-hover:hover {
+    box-shadow: 5px 5px 5px 5px #854CE6;
+  }
+  .custom-card {
+    width: 430px; /* Define your own width */   
+  }

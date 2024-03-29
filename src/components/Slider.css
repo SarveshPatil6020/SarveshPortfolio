@@ -1,0 +1,46 @@
+/* body {
+    background-image: url('../assets/images/back_g.png');    
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  } */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text { 
+    width: 40%; /* Adjust as needed */
+  }
+  .text h2 {
+    font-size: 28px; /* Adjust the font size */
+    margin-top: 180px; /* Adjust the top margin */
+    margin-right: 100px;  
+    color: #333;
+}
+  .gallery{
+      width: 50%;
+      height: 400px;
+      display: flex;
+      gap: 5px;
+  }
+  .gallery img{
+      width: 10%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid white;
+      transition:  all ease 0.3s;
+      cursor: pointer;
+  }
+  .gallery img:hover{
+      width: 100%;
+  }
+  .particles canvas{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+
+}
