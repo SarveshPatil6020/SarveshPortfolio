@@ -85,11 +85,11 @@ const Project = () => {
     </div>
   </div>
 
-      
-    <button className="width:100%  mt-4 px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 style={{ marginLeft: '6px', marginRight: '6px' }">
+      <a href="pr">
+    <button  className="width:100%  mt-4 px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 style={{ marginLeft: '6px', marginRight: '6px' }">
         View All Projects
       </button>
-    
+    </a>
       </div>
   );  
 };

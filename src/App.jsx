@@ -22,17 +22,17 @@ const App = () => {
 <Design/>
 <BrowserRouter>
 <Navigation />
-<Home/>
+
 <Routes>
-  <Route path="/about" element={<About />}/>
-  <Route path="/contact" element={<Contact />}/>
-  <Route path="/cert" element={<Certificate />}/>
-  <Route path="/skill" element={<Skills />}/>
-  <Route path="/abt" element={<AboutUs />}/>
-  <Route path="/pro" element={<Project />}/>  
-  <Route path="/cet" element={<Cert/>}/>  
-  <Route path="/pr" element={<Pro/>}/>  
-  <Route path="/Portfolio" element={<Home/>}/>  
+  <Route path="SarveshPortfolio/about" element={<About />}/>
+  <Route path="SarveshPortfolio/contact" element={<Contact />}/>
+  <Route path="SarveshPortfolio/cert" element={<Certificate />}/>
+  <Route path="SarveshPortfolio/skill" element={<Skills />}/>
+  <Route path="SarveshPortfolio/abt" element={<AboutUs />}/>
+  <Route path="SarveshPortfolio/pro" element={<Project />}/>  
+  <Route path="SarveshPortfolio/cet" element={<Cert/>}/>  
+  <Route path="SarveshPortfolio/pr" element={<Pro/>}/>  
+  <Route path="SarveshPortfolio/" element={<Home/>}/>  
 
 
 

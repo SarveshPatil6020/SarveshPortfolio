@@ -28,7 +28,7 @@ const Certificate = () => {
   ACHIEVEMENTS
 </h1>
     <div className="flex flex-wrap justify-center">
-<a href="/cet">
+<a href="cet">
 <button  className="custom-button absolute top-30 right-40 m-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded-full flex items-center">
               View All
               <svg className="ml-2 w-6 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

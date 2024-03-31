@@ -2,19 +2,19 @@
 export const routes = [
     {
       name: "Home",
-      link: "/",
+      link: "SarveshPortfolio/",
     },
     {
-      name: "Skills",
-      link: "/abt",
+      name: "About Me",
+      link: "SarveshPortfolio/abt",
     },
       {
       name: "Projects",
-      link: "/event",
+      link: "SarveshPortfolio/pr",
     },
     {
       name: "Achievements",
-      link: "/contact",
+      link: "SarveshPortfolio/cet",
   
       // subRoutes: [
       //   {
@@ -33,6 +33,6 @@ export const routes = [
     },
     {
       name: "Contact Me",
-      link: "/contact",
+      link: "SarveshPortfolio/contact",
     },
   ];
