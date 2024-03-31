@@ -11,6 +11,13 @@ position: relative;
 z-index: 1;
 align-items: center;
 margin-bottom: 4rem;
+@media (max-width: 960px) {
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  margin-bottom: 0rem;
+  
+}
 `
 
 const Wrapper = styled.div`
@@ -31,12 +38,16 @@ font-size: 3rem;
 text-align: left;
 font-weight: 700;
 margin-top: 20px;
-border-bottom: 3px solid #149bf5; 
+border-bottom: 3px solid #149bf5;
+ 
 
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-margin-top: 12px;
+      margin-top: 12px;
       font-size: 32px;
+      text-align: center;
+      border-bottom: none;
+      text-decoration: underline;
   }
 `;
 
@@ -58,6 +69,7 @@ const SkillsContainer = styled.div`
   gap: 30px;
   justify-content: center;
   margin-bottom: 5rem;
+
 `
 
 const Skill = styled.div`
@@ -67,6 +79,7 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  background:#111827;
   &:hover {
     box-shadow: 5px 5px 5px 5px #854CE6; /* Change background color on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
@@ -131,8 +144,7 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>SKILLS</Title>
-        {/* <Desc>Here are some of my skills on which I have been working on for the past 2 years.
-        </Desc> */}
+      
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>

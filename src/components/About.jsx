@@ -9,7 +9,7 @@ const About = () => {
     <section className="home" id="home">
         <div className="home-content">
             <h1>Hi, It's <span>Sarvesh</span></h1>
-                <h3 className="text-animation">Computer Engineering student<span></span></h3>
+                <h3 className="text-animation">I'am a <span></span></h3>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/sarvesh-patil-sp6020"><box-icon type='logo' name='linkedin'></box-icon></a>
                     <a href="https://github.com/SarveshPatil6020"><box-icon type='logo' name='github'></box-icon></a>

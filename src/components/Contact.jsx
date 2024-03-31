@@ -3,8 +3,8 @@ import React from 'react';
 const Contact = () => {
   return (
     (
-      <div><h1 className="text-5xl font-bold font-size-3.5rem   pb-2 mb-2 ml-20 mr-20 mt-20 text-center " style={{ color: "#149bf5",borderBottomWidth: "3px", borderBottomColor: "#149bf5"}}>CONTACT</h1>
-      <div className="flex justify-center items-center min-h-screen  text-white">
+      <div><h1 className="text-5xl font-bold font-size-3.5rem   pb-2 mb-2 ml-20 mr-20 mt-20 text-center sm:mb-8" style={{ color: "#149bf5",borderBottomWidth: "3px", borderBottomColor: "#149bf5"}}>CONTACT</h1>
+      <div className="flex justify-center items-center min-h-screen text-white ">
         <div className="max-w-7xl w-full bg-gray-800 shadow-md rounded-md overflow-hidden md:flex">
           <div className="md:w-1/2 p-4 md:p-8">
             <h2 className="text-xl md:text-2xl font-bold mb-4">Contact Me</h2>

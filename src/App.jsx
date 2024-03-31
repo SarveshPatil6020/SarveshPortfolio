@@ -11,6 +11,8 @@ import AboutUs from './components/AboutUs'
 import Project from './components/Project'
 import Navigation from './components/Navigation/Navigation'
 import Contact from './components/Contact'
+import Cert from './components/Certifiacate/Cert'
+import Pro from "./components/Project/Pro"
 const App = () => {
   return (
     <>
@@ -20,15 +22,17 @@ const App = () => {
 <Design/>
 <BrowserRouter>
 <Navigation />
-{/* <Navbar />  */}
+<Home/>
 <Routes>
-  <Route path="" element={<Home />}/>
   <Route path="/about" element={<About />}/>
   <Route path="/contact" element={<Contact />}/>
   <Route path="/cert" element={<Certificate />}/>
   <Route path="/skill" element={<Skills />}/>
   <Route path="/abt" element={<AboutUs />}/>
-  <Route path="/pro" element={<Project />}/>
+  <Route path="/pro" element={<Project />}/>  
+  <Route path="/cet" element={<Cert/>}/>  
+  <Route path="/pr" element={<Pro/>}/>  
+  <Route path="/Portfolio" element={<Home/>}/>  
 
 
 

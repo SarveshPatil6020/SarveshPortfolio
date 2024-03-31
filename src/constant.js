@@ -5,15 +5,15 @@ export const routes = [
       link: "/",
     },
     {
-      name: "About us",
+      name: "Skills",
       link: "/abt",
     },
       {
-      name: "Events",
+      name: "Projects",
       link: "/event",
     },
     {
-      name: "Services",
+      name: "Achievements",
       link: "/contact",
   
       // subRoutes: [
@@ -32,7 +32,7 @@ export const routes = [
       // ],
     },
     {
-      name: "Contact Us",
+      name: "Contact Me",
       link: "/contact",
     },
   ];

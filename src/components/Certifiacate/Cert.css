@@ -1,0 +1,96 @@
+    .header {
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 8rem;
+      
+    color:white; /* Adjust color as needed */
+  }
+  
+  .sub-header {
+      text-align: left;
+    font-size: 18px;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+   
+
+    color:white; /* Adjust color as needed */
+  }
+
+  .divider {
+    border: none;
+    height: 2px;
+    background-color: #ccc; /* Adjust color as needed */
+    margin: 10px auto; /* Adjust margin as needed */
+  }
+.image-slider-container {
+    position: relative;
+  }
+  
+  .slider-image {
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white; /* Add border style */
+    border-radius: 8px; 
+    border-style: double; /* Use double border style */
+    border-width: 4px;  
+    border-color:white;
+    padding: 12px;
+}
+  
+  .image-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .image-bar button {
+    background-color: #ccc;
+    border: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  
+  .image-bar button.active {
+    background-color: #149bf5;
+    color: white;
+  }
+
+
+  @media (max-width: 768px) {
+  .header {
+    padding-left: 5px;
+    margin-left: 0; /* Adjust margin as needed */
+    font-size: 24px; /* Adjust font size as needed */
+  }
+
+  .sub-header {
+    padding-left: 5px;
+    margin-left: 0; /* Adjust margin as needed */
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+  .image-slider-container {
+    padding: 5px;
+    width: 100%; /* Adjust width as needed */
+  }
+
+  .slider-image {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+  }
+
+  .image-bar {
+    flex-wrap: wrap; /* Adjust flex-wrap as needed */
+  }
+
+  .image-bar button {
+    margin: 5px 0; /* Adjust margin as needed */
+  }
+}
