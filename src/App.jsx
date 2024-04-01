@@ -19,7 +19,17 @@ const App = () => {
 <div className="bg-black bg-no-repeat bg-center bg-cover">
 
 <div className="App">
-<Design/>
+
+
+<h1 className="text-white text-blue-400 text-4xl">Hey!!! cutieee</h1>
+<h2 className="text-white text-blue-200 text-2xl">kub aa rahe ho?????
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+yaad aa rahi hai aapki ;)  </h2>
+{/* <Design/>
 <BrowserRouter>
 <Navigation />
 
@@ -41,7 +51,7 @@ const App = () => {
   
 </Routes>
 <Footer />
-</BrowserRouter>
+</BrowserRouter> */}
 </div>
 </div>
 
