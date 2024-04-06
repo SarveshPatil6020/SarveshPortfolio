@@ -59,25 +59,25 @@ const AboutUs = () => {
                         <div className="tab-contentss" id="experiences">
                         <div className="experiences-item">
     <div><img className="img_b" src={badge4} alt="Logo 2"  />
-        <span>view</span>
+        <a className="text-blue-300 " href="https://www.credly.com/badges/ea22c7d5-cc03-43c0-9cac-51fb316a12fc/public_url">view</a>
         </div>
     </div>
     <div className="experiences-item">
       <div >
         <img className="img_b" src={badge1} alt="Logo 1" />
-        <span>view</span>
+        <a className="text-blue-300 " href="https://www.credly.com/badges/3355ac34-3291-4c26-923e-abaa361dc298/public_url">view</a>
       </div>
     </div>
     <div className="experiences-item">
         <div><img className="img_b" src={badge2} alt="Logo 2"  />
-        <span>view</span>
+        <a className="text-blue-300 " href="https://www.credly.com/badges/e63bbf90-1823-4ce0-b657-3bfb471c7e87/public_url">view</a>
         </div>
     </div>
     
     <div className="experiences-item">
         <div>
         <img className="img_b" src={badge3} alt="Logo 3" />
-        <span>view</span>
+        <a className="text-blue-300 " href="https://www.credly.com/badges/8597b101-c4e9-4e2b-801c-42e2900c68a0/public_url">view</a>
          </div>
     
     </div>

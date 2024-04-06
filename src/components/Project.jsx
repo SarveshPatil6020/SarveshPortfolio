@@ -28,7 +28,7 @@ const Project = () => {
       VIIR Park provides ecosystem for startups with a vision to nurture the young and innovative minds. Students, Faculty members, Alumni, Industry or any grass root innovators can Incubate from TRL0 to TRL9 at VIIR Park        
       </p>
       <div className="flex">
-      <a href="abt" className="btn2">Git hub</a>
+      <a href="https://github.com/SarveshPatil6020/viit_incub.git" className="btn2">Git hub</a>
         <div className="w-2"></div>
       </div>
     </div>
@@ -43,7 +43,7 @@ const Project = () => {
   <p className="text-white mb-10"><span className="text-custom-blue">Language Used-</span> Python, streamlit, html  DataBase- Firebase</p>
   <p className="text-white mb-10">The Student Performance Analysis Website is a Streamlit-based platform enabling users to upload student data, visualize performance trends, and gain insights through interactive charts. With features like data upload, visualization options, and user authentication</p>
   <div className="flex">
-  <a href="abt" className="btn2">Git hub</a>
+  <a href="https://github.com/SarveshPatil6020/Streamlit_python.git" className="btn2">Git hub</a>
 
     <div className="w-2"></div>
  
@@ -68,7 +68,7 @@ const Project = () => {
       <p className="text-white mb-10">The website aims to educate beginners in stock market investments by providing fundamental analysis of companies. It offers users access to company histories and financial data, aiding informed decision-making.User feedback and reviews enhance the learning experience</p>
       <div className=" flex">
       
-        <a href="abt" className="btn2">Git hub</a>
+        <a href="https://github.com/SarveshPatil6020/FundaTech.git" className="btn2">Git hub</a>
         <div className="w-2"></div>
         
       </div>
