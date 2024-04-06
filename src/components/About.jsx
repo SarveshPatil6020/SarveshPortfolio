@@ -2,7 +2,7 @@ import React from 'react'
 import profilep from "../assets/images/IMG_3068.jpg"
 import "./About.css"
 import 'boxicons'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className="btn-group">
                     <a href="https://drive.google.com/file/d/1XccEDtVvumx_P_w4ZKYdr-uh3N_r00dX/view?usp=sharing" class="btn">Download CV</a>
-                    <a href="abt" className="btn">Read more</a>
+                    <Link className="btn" to="/SarveshPortfolio/abt">Read more</Link>
                 </div>            
         </div>
             <div className="home-img">

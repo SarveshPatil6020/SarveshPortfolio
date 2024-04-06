@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import img1 from "../../assets/images/Projects/VIIR.png"
 import img2 from "../../assets/images/Projects/stremlit.png"
 import img3 from "../../assets/images/Projects/fundatech.png"
@@ -78,7 +80,7 @@ const Pro_resp = () => {
   </div>
 </div>
 <div className="btn-group mt-5 flex justify-center"> 
-      <a href="pr" className="btn">View all Project</a>
+<Link className="btn" to="/SarveshPortfolio/pr">View all Project</Link>
     </div>
 
 <hr className="mr-0 sm:mr-20 ml-0 sm:ml-20 mb-5 mt-5"/>

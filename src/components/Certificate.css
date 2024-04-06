@@ -34,7 +34,7 @@
     border-bottom-style: solid;
     text-align: left;
   }
-  .btn1{
+  .hide1{
     display: none;
   }
   
@@ -55,8 +55,8 @@
     .hide{
       display: none;
     }
-    .btn{
-      display:  flex;
+    .hide1{
+      display: flex;
     }
     .bordercss{
       margin-bottom: 2rem;
@@ -68,6 +68,9 @@
   @media (max-width: 768px) {
     .custom-title{
       font-size:2rem ;
+    }
+    .btn1{
+      display:  flex;
     }
     
   }
