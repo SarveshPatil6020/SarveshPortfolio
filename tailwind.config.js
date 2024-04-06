@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-blue': '#00ffee',
+      },
       backgroundImage:{
         "banner-bg":"url('./public/back.jpg')"
       }

@@ -93,10 +93,7 @@ const NavRoute = styled(Link)`
 
   &:hover {
     font-size: 1.3rem;
-    color: black;
-    background-color: #149bf5;
-    border-radius: 40%;
-    box-shadow: 0px 0px 10px #149bf5;
+    color:#149bf5;
 
   }
 `;

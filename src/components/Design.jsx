@@ -50,12 +50,12 @@ const Design = () => {
                 quantity: 0,
               },
               repulse: {
-                distance: 200,
+                distance: 800,
                 duration: 0.5,
 
               },
               grab:{
-                  distance:300,
+                  distance:200,
                   lnk_linked:{
                       opacity:0.5,
                   }
@@ -69,7 +69,7 @@ const Design = () => {
             },
             links: {
               color: "#ffffff",
-              distance: 150,
+              distance: 120,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -81,7 +81,7 @@ const Design = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 4,
+              speed: 2,
               straight: false,
             },
             number: {
@@ -94,10 +94,10 @@ const Design = () => {
               value: 0.5,
             },
             shape: {
-              type: "circle",
+              type: "edge",
             },
             size: {
-              value: { min: 1, max: 5 },
+              value: { min: 1, max: 4 },
             },
           },
           detectRetina: true,

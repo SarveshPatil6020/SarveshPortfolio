@@ -5,13 +5,14 @@
     font-weight: bold;
     margin-left: 8rem;
       
-    color:white; /* Adjust color as needed */
+    color:#149bf5; /* Adjust color as needed */
   }
   
   .sub-header {
       text-align: left;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 8rem;
+    margin-right: 6rem;
     margin-bottom: 2rem;
    
 
@@ -33,11 +34,11 @@
     height: 600px;
     display: block;
     margin: 0 auto;
-    border: 2px solid white; /* Add border style */
+    border: 2px solid #149bf5; /* Add border style */
     border-radius: 8px; 
     border-style: double; /* Use double border style */
     border-width: 4px;  
-    border-color:white;
+    border-color:#149bf5;
     padding: 12px;
 }
   

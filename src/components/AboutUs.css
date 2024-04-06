@@ -19,7 +19,13 @@
 .about-col-1 img:hover {
     transform: scale(1.1); /* Increase size on hover */
 }
-
+.img_b{
+    width:120px;
+    height:120px;
+}
+/* .img_b img{
+    tran
+} */
 .about-col-2{
     flex-basis: 55%;
     border: 1px solid #fff; /* Add border style */
@@ -39,17 +45,20 @@ p{
     font-weight: 600;
 }
 .tab-titles{
+    justify-content: center;
     display: flex;
     margin: 20px 0 40px;
-    color: #854CE6;
+    color: #0004ff;
 }
 .tab-links{
+    
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
     transition: transform 0.3s ease;
+    text-decoration: underline;
 }
 
 .tab-links::after{
@@ -64,7 +73,7 @@ p{
 }
 .tab-links.active-link::after
 {
-    width: 50%;
+    width: 80%;
 }
 ul{
     text-align: left;
@@ -72,15 +81,19 @@ ul{
 .tab-contents ul li{
    list-style: none;
    margin: 10px 0;
+   margin-bottom: 1.5rem;
+   font-size: 20px;
 }
-.tab-contents ul li span{
+.tab-contents ul span{
     color: white;
-    font-size: 14px;
+    font-size: 17px;
+    
 }
 .tab-contents{
     display: none;
 }
 .tab-contents.active-tab{
+    
     display: block;
 }
 
@@ -137,6 +150,17 @@ ul{
         padding: 20px; 
        
     }
+    .about-col-2{
+        flex-basis: 90%;
+        width: 10rem;
+        padding: 20px; 
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;  
+    }
+    .tab-links{
+        font-size: 12px;
+    }
   
     
 }
@@ -145,27 +169,30 @@ ul{
     .about-col-1{
         flex-basis: 100%;
         margin-bottom: 20px;
-        margin-left: 0rem;
     }
     .about-col-1 img{
         width: 90%;
         border-radius: 15px;
         transition: transform 0.3s ease;
         align-items: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin: 1rem;
         
     }
     .about-col-2{
-        flex-basis: 100%;
-       
+        flex-basis: 90%;
+        width: 10rem;
         padding: 20px; 
         align-items: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
-
-
-       
+        margin: 1rem;
+        
+    }
+    .tab-links{
+        font-size: 12px;
+    }
+}
+@media(max-width:667px){
+    .tab-links{
+        font-size: 11px;
     }
 }
     

@@ -10,11 +10,12 @@ import img8 from "../../assets/images/Certificates/cpp.png"
 import img9 from "../../assets/images/Certificates/DSML.png"
 import img10 from "../../assets/images/Certificates/java-1.png"
 import img11 from "../../assets/images/Certificates/java.png"
+import img12 from "../../assets/images/Certificates/AWS.png"
 import "./Cert.css"
 const Cert = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    img1,
+    img12,
     img2,
     img3,
     img4,
@@ -25,6 +26,7 @@ const Cert = () => {
     img9,
     img10,
     img11,
+    img1,
   ];
 
   const handleImageChange = (index) => {

@@ -13,6 +13,7 @@ import Navigation from './components/Navigation/Navigation'
 import Contact from './components/Contact'
 import Cert from './components/Certifiacate/Cert'
 import Pro from "./components/Project/Pro"
+import Badges from './components/Badges'
 const App = () => {
   return (
     <>
@@ -35,6 +36,7 @@ const App = () => {
   <Route path="SarveshPortfolio/pro" element={<Project />}/>  
   <Route path="SarveshPortfolio/cet" element={<Cert/>}/>  
   <Route path="SarveshPortfolio/pr" element={<Pro/>}/>  
+  <Route path="SarveshPortfolio/badges" element={<Badges/>}/>  
   <Route path="SarveshPortfolio/" element={<Home/>}/>  
 
 
