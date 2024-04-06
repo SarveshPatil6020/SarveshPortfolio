@@ -28,7 +28,7 @@ const Certificate = () => {
   CERTIFICATIONS
 </h1>
     <div className="flex flex-wrap justify-center">
-<a href="cet">
+<a href="SarveshPortfolio/cet">
     <div className="hide">
 <button  className="custom-button absolute top-30 right-40 m-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded-full flex items-center">
               View All
