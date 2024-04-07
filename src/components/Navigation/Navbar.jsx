@@ -11,7 +11,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
         <DrawerButton onClick={toggleDrawer}>
           <FaBars />
         </DrawerButton>
-        <SNavbarBrand><h1>Portfolio</h1></SNavbarBrand>
+        <SNavbarBrand><Link to="/SarveshPortfolio/"><h1>Portfolio</h1></Link></SNavbarBrand>
         <RightNav>
           <NavRoutes>
             {routes.map((route) => {

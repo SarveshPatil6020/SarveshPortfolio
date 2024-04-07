@@ -33,7 +33,7 @@ const Contact = () => {
             <h2 className="text-xl text-black md:text-2xl font-bold mb-4">Contact Information</h2>
             <p className="text-bold text-black mb-2">Phone: <a href="tel:+91 9579256020">+91 9579256020</a></p>
             <p className="text-bold text-black mb-2">Email: <a href="mailto:sarvesh98patil81@gmail.com">sarvesh98patil81@gmail.com</a></p>
-            <p className="text-bold text-black mb-2">Address: 123 Street, City, Country</p>
+            <p className="text-bold text-black mb-2">Address: Hadapsar, Pune, India</p>
             <iframe title="Map" className="w-full border border-black rounded-md h-80 mt-9" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.0937568724803!2d73.95504717496182!3d18.479411882606197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e9e86ae4bbe1%3A0xc45cede9a80f66cb!2sGreen%20County%20Phase%202!5e0!3m2!1sen!2sin!4v1711255274428!5m2!1sen!2sin" ></iframe>
      
           </div>

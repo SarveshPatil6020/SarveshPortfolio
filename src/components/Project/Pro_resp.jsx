@@ -15,7 +15,7 @@ const Pro_resp = () => {
   return (
     
     <div> 
-      <h1 className="text-5xl font-bold font-size-3.5rem   pb-2 pl-5 mb-20 ml-20 mr-20  mt-20 text-left " style={{ color: "#149bf5",borderBottomWidth: "3px", borderBottomColor: "#149bf5"}}>PROJECTS</h1>
+      <h1 className="text-4xl font-bold font-size-2rem   pb-2 pl-1 mb-20 ml-20 mr-20  mt-20 text-cennter " style={{ color: "#149bf5",borderBottomWidth: "3px", borderBottomColor: "#149bf5"}}>PROJECTS</h1>
       
       
       
